@@ -30,7 +30,6 @@ jobs:
           npm install
       - name: '运行 【东东农场】'
         run: |
-          cd ~/scripts
           node jdhecheng.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
